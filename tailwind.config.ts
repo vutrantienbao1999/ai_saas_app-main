@@ -1,10 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 import animate from "tailwindcss-animate";
 
 module.exports = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{ts,tßsx}",
+    "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
