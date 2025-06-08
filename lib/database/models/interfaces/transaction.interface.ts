@@ -1,5 +1,5 @@
-import { Document, Types } from 'mongoose';
-import { IUser } from './user.interface';
+import { Document, Types } from "mongoose";
+import { IUser } from "./user.interface";
 
 export interface ITransaction extends Document {
   createdAt: Date;

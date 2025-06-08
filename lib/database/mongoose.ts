@@ -20,7 +20,7 @@ export async function connectToDatabase() {
     throw new Error("MONGODB_URL is not defined");
   }
 
-  cached.promise = cached.promise || mongoose.connect(MONGODB_URL, { dbName: 'Imaginify', bufferCommands: false})
+  cached.promise = cached.promise || mongoose.connect(MONGODB_URL, { dbName: "Imaginify", bufferCommands: false})
 
   cached.conn = await cached.promise;
 
