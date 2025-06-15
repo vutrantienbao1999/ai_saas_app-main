@@ -6,7 +6,7 @@ import { createUser, deleteUser, updateUser } from "@/lib/actions/user.actions";
 
 export const allowedMethods = ['POST'];
 
-const WEBHOOK_SECRET = process.env.CLERK_WEBHOOK_SECRET || "";
+const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || "";
 
 interface User {
   _id?: string;
